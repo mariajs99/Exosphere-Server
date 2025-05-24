@@ -1,26 +1,32 @@
 {
   "museos": [
     {
-      "id": "1",
-      "nombre": "Museo del Prado",
+      "nombre": "Museo Reina Sofía",
       "ciudad": "Madrid",
       "categoria": "Arte",
-      "descripcion": "Una de las pinacotecas más importantes del mundo.",
-      "horario": "10:00 - 20:00",
-      "precio": "15€ / Gratis domingos",
-      "ubicacion": { "lat": 40.4138, "lng": -3.6921 },
-      "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Museo_del_Prado.jpg/320px-Museo_del_Prado.jpg"
+      "descripción": "arte contemporáneo",
+      "horario": "10:00 - 14:00",
+      "precio": "5€",
+      "ubicacion": {
+        "lat": 40.4139,
+        "lng": -3.6923
+      },
+      "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Museo_del_Prado.jpg/320px-Museo_del_Prado.jpg",
+      "id": "1"
     },
     {
-      "id": "2",
-      "nombre": "Museo Picasso Málaga",
-      "ciudad": "Málaga",
+      "nombre": "Museo Reina Sofía",
+      "ciudad": "Madrid",
       "categoria": "Arte",
-      "descripcion": "Dedicado al pintor Pablo Picasso, nacido en esta ciudad.",
-      "horario": "10:00 - 19:00",
-      "precio": "12€",
-      "ubicacion": { "lat": 36.7213, "lng": -4.4214 },
-      "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Museo_Picasso_Malaga_01.jpg/320px-Museo_Picasso_Malaga_01.jpg"
+      "descripción": "arte contemporáneo",
+      "horario": "10:0 - 19:00",
+      "precio": "5€",
+      "ubicacion": {
+        "lat": 40.4139,
+        "lng": -3.6923
+      },
+      "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Museo_del_Prado.jpg/320px-Museo_del_Prado.jpg",
+      "id": "2"
     },
     {
       "id": "3",
@@ -30,18 +36,27 @@
       "descripcion": "Explora la historia de Barcelona desde sus orígenes.",
       "horario": "10:00 - 19:00",
       "precio": "7€",
-      "ubicacion": { "lat": 41.3839, "lng": 2.1763 },
+      "ubicacion": {
+        "lat": 41.3839,
+        "lng": 2.1763
+      },
       "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/MUHBA.jpg/320px-MUHBA.jpg"
     },
     {
       "id": "4",
       "nombre": "Museo de la Evolución Humana",
       "ciudad": "Burgos",
-      "categoria": ["Tecnologia", "Ciencia"],
+      "categoria": [
+        "Tecnologia",
+        "Ciencia"
+      ],
       "descripcion": "Focalizado en la evolución humana y los yacimientos de Atapuerca.",
       "horario": "10:00 - 20:00",
       "precio": "6€",
-      "ubicacion": { "lat": 42.3439, "lng": -3.6969 },
+      "ubicacion": {
+        "lat": 42.3439,
+        "lng": -3.6969
+      },
       "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Museo_Evolucion_Humana_Burgos_01.jpg/320px-Museo_Evolucion_Humana_Burgos_01.jpg"
     },
     {
@@ -52,70 +67,97 @@
       "descripcion": "Una excelente colección de arte abstracto español del siglo XX.",
       "horario": "11:00 - 14:00, 16:00 - 18:00",
       "precio": "Gratis",
-      "ubicacion": { "lat": 40.0786, "lng": -2.1296 },
+      "ubicacion": {
+        "lat": 40.0786,
+        "lng": -2.1296
+      },
       "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Museo_Arte_Abstracto_Cuenca.jpg/320px-Museo_Arte_Abstracto_Cuenca.jpg"
     }
   ],
-  "reseñas": [
-{
-    "usuario": "Carlos",
-    "comentario": "Una exposición muy cuidada. Me encantaron las piezas romanas.",
-    "puntuacion": 4.7,
-    "museumId": "1"
-  },
-  {
-    "usuario": "Lucía",
-    "comentario": "Demasiado lleno y poco personal para guiar. Pero la colección lo compensa.",
-    "puntuacion": 3.9,
-    "museumId": "1"
-  },
-  {
-    "usuario": "Eva",
-    "comentario": "Perfecto para una visita en familia. Mis hijos se lo pasaron genial.",
-    "puntuacion": 4.5,
-    "museumId": "2"
-  },
-  {
-    "usuario": "Raúl",
-    "comentario": "Lo mejor es el edificio, impresionante por fuera y por dentro.",
-    "puntuacion": 4.8,
-    "museumId": "2"
-  },
-  {
-    "usuario": "Marta",
-    "comentario": "Esperaba más interactividad. Algo estático, pero interesante.",
-    "puntuacion": 3.8,
-    "museumId": "2"
-  },
-  {
-    "usuario": "Álvaro",
-    "comentario": "Muy recomendable si te gusta la ciencia. Las explicaciones son claras.",
-    "puntuacion": 4.6,
-    "museumId": "4"
-  },
-  {
-    "usuario": "Sofía",
-    "comentario": "Me decepcionó un poco. Muchas salas cerradas por reformas.",
-    "puntuacion": 3.2,
-    "museumId": "3"
-  },
-  {
-    "usuario": "Elena",
-    "comentario": "Un lugar imprescindible si visitas la ciudad. Historia viva.",
-    "puntuacion": 4.9,
-    "museumId": "4"
-  },
-  {
-    "usuario": "Nuria",
-    "comentario": "Poco adaptado a personas con movilidad reducida.",
-    "puntuacion": 3.5,
-    "museumId": "4"
-  },
-  {
-    "usuario": "Diego",
-    "comentario": "Fui sin muchas expectativas y me encantó. Volveré.",
-    "puntuacion": 4.4,
-    "museumId": "5"
-  }
+  "opiniones": [
+    {
+      "id": "op1",
+      "usuario": "Carlos",
+      "comentario": "Una exposición muy cuidada. Me encantaron las piezas romanas.",
+      "puntuacion": 4.7,
+      "museoId": "1"
+    },
+    {
+      "id": "op2",
+      "usuario": "Lucía",
+      "comentario": "Demasiado lleno y poco personal para guiar. Pero la colección lo compensa.",
+      "puntuacion": 3.9,
+      "museoId": "1"
+    },
+    {
+      "id": "op3",
+      "usuario": "Eva",
+      "comentario": "Perfecto para una visita en familia. Mis hijos se lo pasaron genial.",
+      "puntuacion": 4.5,
+      "museoId": "2"
+    },
+    {
+      "id": "op4",
+      "usuario": "Raúl",
+      "comentario": "Lo mejor es el edificio, impresionante por fuera y por dentro.",
+      "puntuacion": 4.8,
+      "museoId": "2"
+    },
+    {
+      "id": "op5",
+      "usuario": "Marta",
+      "comentario": "Esperaba más interactividad. Algo estático, pero interesante.",
+      "puntuacion": 3.8,
+      "museoId": "2"
+    },
+    {
+      "id": "op6",
+      "usuario": "Álvaro",
+      "comentario": "Muy recomendable si te gusta la ciencia. Las explicaciones son claras.",
+      "puntuacion": 4.6,
+      "museoId": "4"
+    },
+    {
+      "id": "op7",
+      "usuario": "Sofía",
+      "comentario": "Me decepcionó un poco. Muchas salas cerradas por reformas.",
+      "puntuacion": 3.2,
+      "museoId": "3"
+    },
+    {
+      "id": "op8",
+      "usuario": "Elena",
+      "comentario": "Un lugar imprescindible si visitas la ciudad. Historia viva.",
+      "puntuacion": 4.9,
+      "museoId": "4"
+    },
+    {
+      "id": "op9",
+      "usuario": "Nuria",
+      "comentario": "Poco adaptado a personas con movilidad reducida.",
+      "puntuacion": 3.5,
+      "museoId": "4"
+    },
+    {
+      "id": "op10",
+      "usuario": "Diego",
+      "comentario": "Fui sin muchas expectativas y me encantó. Volveré.",
+      "puntuacion": 4.4,
+      "museoId": "5"
+    },
+    {
+      "usuario": "María",
+      "comentario": "muy piola",
+      "puntuación": "4.2",
+      "museoId": "4",
+      "id": "-sQRWWQ"
+    },
+    {
+      "usuario": "María",
+      "comentario": "muy piola",
+      "puntuación": 4.2,
+      "museoId": "4",
+      "id": "W-DRdn4"
+    }
   ]
 }
