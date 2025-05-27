@@ -2,32 +2,32 @@
   "museos": [
     {
       "nombre": "Museo Reina Sofía",
-      "ciudad": "Madrid",
-      "categoria": "Arte",
       "descripcion": "Museo de arte del siglo XX y contemporáneo.",
       "historia": "Es el principal museo de arte moderno y contemporáneo de España. Su obra más famosa es el Guernica de Picasso. Alberga también piezas destacadas de Dalí, Miró y muchos otros artistas del siglo XX.",
+      "ciudad": "Madrid",
       "horario": "10:00 - 14:00",
-      "precio": "5€",
-      "ubicacion": {
-        "lat": 40.4139,
-        "lng": -3.6923
-      },
       "imagen": "https://cdn.contemporaryartlibrary.org/store/image/51650/imagefile/caq_thumb-c2e9f8a1fa450536208b42e23b64ca6e.jpg",
+      "precio": "5€",
+      "categoria": "Arte",
+      "ubicacion": {
+        "latitud": "",
+        "longitud": ""
+      },
       "id": "1"
     },
     {
       "nombre": "Museo del Ferrocarril de Cataluña",
-      "ciudad": "Vilanova i la Geltrú",
-      "categoria": "Historia",
       "descripcion": "Museo dedicado a la historia del ferrocarril.",
-      "historia":"Este museo muestra la historia del ferrocarril en España. Cuenta con una gran colección de locomotoras históricas, vagones y objetos relacionados con el mundo ferroviario. Está ubicado en una antigua estación.", 
+      "historia": "Este museo muestra la historia del ferrocarril en España. Cuenta con una gran colección de locomotoras históricas, vagones y objetos relacionados con el mundo ferroviario. Está ubicado en una antigua estación.",
+      "ciudad": "Vilanova i la Geltrú",
       "horario": "10:00 - 14:00",
-      "precio": "5€",
-      "ubicacion": {
-        "lat": 41.2228,
-        "lng": 1.7275
-      },
       "imagen": "https://museudelferrocarril.org/img/collaboradors/museus.jpg",
+      "precio": "3€",
+      "categoria": "Historia",
+      "ubicacion": {
+        "latitud": "",
+        "longitud": ""
+      },
       "id": "2"
     },
     {
@@ -46,19 +46,19 @@
       "id": "3"
     },
     {
-      "id": "4",
       "nombre": "Museo de la Evolución Humana",
-      "ciudad": "Burgos",
-      "categoria": "Ciencia",
       "descripcion": "Focalizado en la evolución humana y los yacimientos de Atapuerca.",
-      "historia": "Ubicado cerca del yacimiento de Atapuerca, este museo explora el origen y desarrollo de los humanos. Presenta fósiles, reconstrucciones y recursos interactivos para entender la evolución.",
+      "historia": "Ubicado cerca del yacimiento de Atapuerca, este museo explora el origen y desarrollo de los humanos. Presenta fósiles, reconstrucciones y recursos interactivos para entender la evolución",
+      "ciudad": "Burgos",
       "horario": "10:00 - 20:00",
-      "precio": "6€",
+      "imagen": "https://quo.eldiario.es/imagenes_quo/es.h-cdn.co/quoes/images/ciencia/prehistoria/museo_de_la_evolucion_humana/03_museo_burgos_quo_195/507143-1-esl-ES/03_museo_burgos_quo_195.jpg?resize=480:*",
+      "precio": "5€",
+      "categoria": "Ciencia",
       "ubicacion": {
-        "lat": 42.3439,
-        "lng": -3.6969
+        "latitud": "",
+        "longitud": ""
       },
-      "imagen": "https://quo.eldiario.es/imagenes_quo/es.h-cdn.co/quoes/images/ciencia/prehistoria/museo_de_la_evolucion_humana/03_museo_burgos_quo_195/507143-1-esl-ES/03_museo_burgos_quo_195.jpg?resize=480:*"
+      "id": "4"
     },
     {
       "id": "5",
@@ -153,6 +153,27 @@
       "puntuación": "4.2",
       "museoId": "4",
       "id": "op11"
+    },
+    {
+      "usuario": "María",
+      "comentario": "Muy piola",
+      "puntuacion": 4,
+      "museoId": "1",
+      "id": "sTQHzW2"
+    },
+    {
+      "usuario": "Juan",
+      "comentario": "Muy chulo",
+      "puntuacion": 4.2,
+      "museoId": "2",
+      "id": "llEK5Rz"
+    },
+    {
+      "usuario": "Pepe",
+      "comentario": "Me gustaron mucho las obras expuestas.",
+      "puntuacion": 4,
+      "museoId": "3",
+      "id": "XbAmdzF"
     }
   ]
 }
