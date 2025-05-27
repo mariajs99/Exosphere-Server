@@ -13,6 +13,8 @@ const middlewares = jsonServer.defaults()
 
 server.use(middlewares)
 
+server.use(json());
+
 const routes = jsonServer.router("db.json")
 
 server.use(routes)
