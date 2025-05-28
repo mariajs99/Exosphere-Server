@@ -13,6 +13,7 @@
         "latitud": "",
         "longitud": ""
       },
+      "favorito": false,
       "id": "1"
     },
     {
@@ -28,6 +29,7 @@
         "latitud": "",
         "longitud": ""
       },
+      "favorito": false,
       "id": "2"
     },
     {
@@ -42,6 +44,7 @@
         "lat": 36.7213,
         "lng": -4.4217
       },
+      "favorito": false,
       "imagen": "https://stunning-blessing-574f5b9b6f.media.strapiapp.com/xxlarge_El_eco_de_Picasse_Home_de42517cbf.jpg",
       "id": "3"
     },
@@ -58,6 +61,7 @@
         "latitud": "",
         "longitud": ""
       },
+      "favorito": false,
       "id": "4"
     },
     {
@@ -73,6 +77,7 @@
         "lat": 40.0786,
         "lng": -2.1296
       },
+      "favorito": false,
       "imagen": "https://media.revistaad.es/photos/61ebf777fb4c9a6028b08d1c/master/w_1600%2Cc_limit/5.jpg"
     }
   ],
