@@ -9,12 +9,8 @@
       "imagen": "https://cdn.contemporaryartlibrary.org/store/image/51650/imagefile/caq_thumb-c2e9f8a1fa450536208b42e23b64ca6e.jpg",
       "precio": "5€",
       "categoria": "Arte",
-      "ubicacion": {
-        "latitud": "",
-        "longitud": ""
-      },
-      "favorito": false,
-      "id": "1"
+      "id": "1",
+      "favorito": false
     },
     {
       "nombre": "Museo del Ferrocarril de Cataluña",
@@ -25,10 +21,6 @@
       "imagen": "https://museudelferrocarril.org/img/collaboradors/museus.jpg",
       "precio": "3€",
       "categoria": "Historia",
-      "ubicacion": {
-        "latitud": "",
-        "longitud": ""
-      },
       "favorito": false,
       "id": "2"
     },
@@ -40,10 +32,6 @@
       "historia": "Dedicado a Pablo Picasso, nacido en Málaga, este museo expone una amplia colección de sus obras que abarca todas sus etapas creativas. El edificio, el Palacio de Buenavista, también es una joya arquitectónica.",
       "horario": "10:00 - 19:00",
       "precio": "9€",
-      "ubicacion": {
-        "lat": 36.7213,
-        "lng": -4.4217
-      },
       "favorito": false,
       "imagen": "https://stunning-blessing-574f5b9b6f.media.strapiapp.com/xxlarge_El_eco_de_Picasse_Home_de42517cbf.jpg",
       "id": "3"
@@ -57,29 +45,141 @@
       "imagen": "https://quo.eldiario.es/imagenes_quo/es.h-cdn.co/quoes/images/ciencia/prehistoria/museo_de_la_evolucion_humana/03_museo_burgos_quo_195/507143-1-esl-ES/03_museo_burgos_quo_195.jpg?resize=480:*",
       "precio": "5€",
       "categoria": "Ciencia",
-      "ubicacion": {
-        "latitud": "",
-        "longitud": ""
-      },
       "favorito": false,
       "id": "4"
     },
     {
-      "id": "5",
       "nombre": "Museo de Arte Abstracto Español",
-      "ciudad": "Cuenca",
-      "categoria": "Arte",
       "descripcion": "Una colección de arte abstracto español del siglo XX.",
       "historia": "Situado en las Casas Colgadas de Cuenca, este museo alberga obras clave del arte abstracto español de la segunda mitad del siglo XX. Artistas como Zóbel, Millares o Chillida están representados.",
+      "ciudad": "Cuenca",
       "horario": "11:00 - 14:00, 16:00 - 18:00",
+      "imagen": "https://media.revistaad.es/photos/61ebf777fb4c9a6028b08d1c/master/w_1600%2Cc_limit/5.jpg",
       "precio": "Gratis",
-      "ubicacion": {
-        "lat": 40.0786,
-        "lng": -2.1296
-      },
-      "favorito": false,
-      "imagen": "https://media.revistaad.es/photos/61ebf777fb4c9a6028b08d1c/master/w_1600%2Cc_limit/5.jpg"
-    }
+      "categoria": "Arte",
+      "id": "5",
+      "favorito": false
+    },
+    {
+    "nombre": "Museo Guggenheim Bilbao",
+    "descripcion": "Museo de arte contemporáneo",
+    "historia": "Diseñado por Frank Gehry, es un símbolo de la modernización de Bilbao y un referente mundial del arte contemporáneo.",
+    "ciudad": "Bilbao",
+    "horario": "11:00 - 19:00",
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Museo_Guggenheim_Bilbao_2017.jpg",
+    "precio": "10€",
+    "categoria": "Arte",
+    "id": "6",
+    "favorito": false
+  },
+  {
+    "nombre": "Museo Nacional de Ciencia y Tecnología (MUNCYT)",
+    "descripcion": "Museo dedicado a la conservación y difusión del patrimonio científico y tecnológico.",
+    "historia": "El MUNCYT, con sedes en A Coruña y Alcobendas, alberga una amplia colección de instrumentos científicos, tecnológicos y médicos que reflejan la evolución de la ciencia y la tecnología en España.",
+    "ciudad": "Alcobendas",
+    "horario": "10:00 - 18:00",
+    "imagen": "https://www.muncyt.es/recursos/muncyt.jpg",
+    "precio": "Gratis",
+    "categoria": "Tecnología",
+    "id": "7",
+    "favorito": false
+  },
+  {
+    "nombre": "Museo de la Ciencia y el Cosmos",
+    "descripcion": "Museo interactivo centrado en la astronomía y la física.",
+    "historia": "Ubicado en La Laguna, Tenerife, este museo ofrece exposiciones y actividades que exploran el universo, la física y la tecnología, incluyendo un planetario de última generación.",
+    "ciudad": "La Laguna",
+    "horario": "09:00 - 19:00",
+    "imagen": "https://www.museosdetenerife.org/content/uploads/2018/12/mcc.jpg",
+    "precio": "5€",
+    "categoria": "Astronomía",
+    "id": "8",
+    "favorito": false
+  },
+   {
+    "nombre": "Museo de la Ciencia de Valladolid",
+    "descripcion": "Centro dedicado a la divulgación científica y tecnológica.",
+    "historia": "Este museo ofrece exposiciones interactivas sobre diversos campos científicos, incluyendo energía, agua, química y neurología, destacando piezas como un péndulo de Foucault y un superordenador Cray.",
+    "ciudad": "Valladolid",
+    "horario": "10:00 - 18:00",
+    "imagen": "https://museocienciavalladolid.es/wp-content/uploads/2020/01/museo-ciencia-valladolid.jpg",
+    "precio": "4€",
+    "categoria": "Ciencia",
+    "id": "9",
+    "favorito": false
+  },
+  {
+    "nombre": "Museo Didáctico de las Telecomunicaciones",
+    "descripcion": "Museo interactivo sobre la historia de las telecomunicaciones.",
+    "historia": "Fundado por exempleados de Telefónica en A Coruña, este museo alberga una colección única de equipos de telecomunicaciones, desde el código Morse hasta los móviles actuales.",
+    "ciudad": "A Coruña",
+    "horario": "10:00 - 14:00",
+    "imagen": "https://elpais.com/espana/galicia/2024-09-01/el-sos-de-un-museo-de-las-telecomunicaciones-unico-en-europa.html",
+    "precio": "Gratis",
+    "categoria": "Tecnología",
+    "id": "10",
+    "favorito": false
+  },
+  {
+    "nombre": "Museo Nacional de Ciencias Naturales",
+    "descripcion": "Museo dedicado a la biodiversidad y la geología.",
+    "historia": "Ubicado en Madrid, este museo alberga colecciones de zoología, botánica y geología, destacando por su labor investigadora y educativa.",
+    "ciudad": "Madrid",
+    "horario": "10:00 - 17:00",
+    "imagen": "https://www.mncn.csic.es/sites/default/files/styles/imagen_principal/public/2021-03/mncn.jpg",
+    "precio": "6€",
+    "categoria": "Naturaleza",
+    "id": "11",
+    "favorito": false
+  },
+  {
+    "nombre": "Museo Chillida Leku",
+    "descripcion": "Museo monográfico dedicado al escultor Eduardo Chillida.",
+    "historia": "Ubicado en Hernani, Gipuzkoa, este museo expone obras monumentales de Chillida integradas en jardines, así como esculturas, dibujos y libros en un caserío tradicional vasco.",
+    "ciudad": "Hernani",
+    "horario": "10:00 - 17:00",
+    "imagen": "https://chillidaleku.eus/wp-content/uploads/2020/03/museo-chillida-leku.jpg",
+    "precio": "12€",
+    "categoria": "Monográfico",
+    "id": "20",
+    "favorito": false
+  },
+  {
+    "nombre": "Museo Valenciano de la Agricultura",
+    "descripcion": "Museo dedicado a la historia y evolución de la agricultura en Valencia.",
+    "historia": "Este museo expone maquinaria agrícola, utensilios tradicionales y paneles didácticos sobre la evolución del trabajo en el campo en la huerta valenciana.",
+    "ciudad": "Valencia",
+    "horario": "10:00 - 14:00",
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/5/52/Museu_Agricultura_Valencia.jpg",
+    "precio": "3€",
+    "categoria": "Agricultura",
+    "id": "22",
+    "favorito": false
+  },
+  {
+    "nombre": "Museo Arqueológico de Córdoba",
+    "descripcion": "Museo que exhibe hallazgos arqueológicos desde la Prehistoria hasta la Edad Media.",
+    "historia": "Este museo alberga una amplia colección de objetos encontrados en la provincia de Córdoba, incluyendo piezas romanas, islámicas y visigodas. Destaca el teatro romano conservado en el subsuelo.",
+    "ciudad": "Córdoba",
+    "horario": "09:00 - 20:00",
+    "imagen": "https://www.museosdeandalucia.es/documents/10184/0/arqueologico-cordoba.jpg",
+    "precio": "1,5€",
+    "categoria": "Arqueología",
+    "id": "23",
+    "favorito": false
+  },
+  {
+  "nombre": "Parque de las Ciencias de Granada",
+  "descripcion": "Museo interactivo de ciencia para todas las edades.",
+  "historia": "Inaugurado en 1995, el Parque de las Ciencias es el museo más visitado de Andalucía. Cuenta con exposiciones sobre física, anatomía, astronomía y un planetario, así como zonas al aire libre con animales y jardines.",
+  "ciudad": "Granada",
+  "horario": "10:00 - 19:00",
+  "imagen": "https://www.parqueciencias.com/wp-content/uploads/2020/02/pdc.jpg",
+  "precio": "7€",
+  "categoria": "Ciencia",
+  "id": "24",
+  "favorito": false
+}
   ],
   "opiniones": [
     {
@@ -179,6 +279,13 @@
       "puntuacion": 4,
       "museoId": "3",
       "id": "XbAmdzF"
+    },
+    {
+      "usuario": "Jose",
+      "comentario": "Había mucha gente, era un poco incómodo de estar.",
+      "puntuacion": 3,
+      "museoId": "5",
+      "id": "eAcWkDb"
     }
   ]
 }
