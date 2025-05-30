@@ -21,8 +21,8 @@
       "imagen": "https://museudelferrocarril.org/img/collaboradors/museus.jpg",
       "precio": "3€",
       "categoria": "Historia",
-      "favorito": false,
-      "id": "2"
+      "id": "2",
+      "favorito": false
     },
     {
       "nombre": "Museo Picasso Málaga",
@@ -286,6 +286,13 @@
       "puntuacion": 3,
       "museoId": "5",
       "id": "eAcWkDb"
+    },
+    {
+      "usuario": "Jose",
+      "comentario": "Estuve en agosto y fue una experiencia muy grata. Le doy menos puntuación porque cerraba a las 14:00h",
+      "puntuacion": 4,
+      "museoId": "8",
+      "id": "xrKX7By"
     }
   ]
 }
